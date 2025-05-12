@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Page of Website</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="content-area-si">
+      <header class="arithmetic-and-variables-si">
+        <h1>Arithmetic and Variables</h1>
+        <p>Make calculations, and define and modify variables.</p>
+      </header>
+
+      <div class="intro-to-programming-si">
+        <h2>Intro to Programming</h2>
+        <p>
+          Welcome to the Intro to Programming course! This course is for you if
+          you have never written a single line of code, and you are interested
+          in learning data science and machine learning. (If you do have
+          programming experience and are just new to the Python language, the
+          <a href="">Python course</a> is a better fit to get started.)
+        </p>
+        <p>
+          In this course, you will learn how to use code to get a computer to
+          perform certain tasks for you. Python is one of the most popular
+          programming languages for data science, and it's the language you'll
+          learn in this course. Once you complete this course, you'll be fully
+          prepared to progress to the <a href="">Python course</a>, followed by
+          the <a href="">Intro to Machine Learning course</a>.
+        </p>
+        <p>
+          In this tutorial, you'll see several examples of Python code. You'll
+          get a chance to write your own code in the exercise. (If you'd like to
+          preview the exercise, feel free to <a href=""> take a look now</a>. We
+          also provide a link to the exercise at the end of this tutorial.)
+        </p>
+      </div>
+
+      <div class="printing-si">
+        <h2>Printing</h2>
+        <p>
+          Printing One of the simplest (and most important!) tasks you can ask a
+          computer to do is to print a message.
+        </p>
+        <p>
+          In Python, we ask a computer to print a message for us by writing
+          print() and putting the message inside the parentheses and enclosed in
+          quotation marks. Below, we ask the computer to print the message
+          Hello, world!.
+        </p>
+        <div class="coding-box-si">
+          <p>
+            <span class="function-si">print</span>(<span class="string-si"
+              >"Hello, world!"</span
+            >)
+          </p>
+        </div>
+        <p class="hello-world-answer-p-si answer-p-si">Hello, world!</p>
+        <p class="the-code-is-p-si after-answer-p-si">
+          The code is inside the box (known as a code cell), and the computer's
+          response (called the output of the code) is shown below the box. As
+          you can see, the computer printed the message that we wanted.
+        </p>
+      </div>
+
+      <div class="arithmetic-si">
+        <h2>Arithmetic</h2>
+        <p>
+          We can also print the value of some arithmetic operation (such as
+          addition, subtraction, multiplication, or division).
+        </p>
+        <p>
+          For instance, in the next code cell, the computer adds 2 to 1 and then
+          prints the result, which is 3. Note that unlike when we were simply
+          printing text, we don't use any quotation marks.
+        </p>
+        <div class="coding-box-si">
+          <p>
+            <span class="function-si">print</span>(1
+            <span class="operator-si">+</span> 2)
+          </p>
+        </div>
+        <p class="answer-3-p-si answer-p-si">3</p>
+        <p class="we-can-do-p-si after-answer-p-si">
+          We can also do subtraction in python. The next code cell subtracts 5
+          from 9 and prints the result, which is 4.
+        </p>
+        <div class="coding-box-si">
+          <p>
+            <span class="function-si">print</span>(9
+            <span class="operator-si">-</span> 5)
+          </p>
+        </div>
+        <p class="answer-4-p-si answer-p-si">4</p>
+        <p class="you-can-actually-p-si after-answer-p-si">
+          You can actually do a lot of calculations with python! See the table
+          below for some examples.
+        </p>
+        <div class="table-si">
+          <table>
+            <thead>
+              <tr>
+                <th>Operation</th>
+                <th>Symbol</th>
+                <th>Example</th>
+              </tr>
+            </thead>
+            <tbody class="table-body-si">
+              <tr>
+                <td>Addition</td>
+                <td>+</td>
+                <td>1+2=3</td>
+              </tr>
+              <tr>
+                <td>Subtraction</td>
+                <td>-</td>
+                <td>5 - 4 = 1</td>
+              </tr>
+              <tr>
+                <td>Multiplication</td>
+                <td>*</td>
+                <td>2 * 4 = 8</td>
+              </tr>
+              <tr>
+                <td>Division</td>
+                <td>/</td>
+                <td>6 / 3 = 2</td>
+              </tr>
+              <tr>
+                <td>Exponent</td>
+                <td>**</td>
+                <td>3 ** 2 = 9</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="you-can-control-p-si">
+          You can control the order of operations in long calculations with
+          parentheses.
+        </p>
+        <div class="coding-box-si">
+          <p>
+            <span class="function-si">print</span>(((1
+            <span class="operator-si">+</span> 3)
+            <span class="operator-si">*</span> (9
+            <span class="operator-si">-</span> 2)
+            <span class="operator-si">/</span> 2)
+            <span class="operator-si">**</span> 2)
+          </p>
+        </div>
+        <p class="answer-196.0-p-si answer-p-si">196.0</p>
+        <p class="in-general,-python-p-si after-answer-p-si">
+          In general, Python follows the <a href="">PEMDAS rule</a> when
+          deciding the order of operations.
+        </p>
+      </div>
+
+      <div class="comments-si">
+        <h2>Comments</h2>
+        <p>
+          We use <b>comments</b> to annotate what code is doing. They help other
+          people to understand your code, and they can also be helpful if you
+          haven't looked at your own code in a while. So far, the code that we
+          have written is very short, but annotations become more important when
+          you have written a lot of code.
+        </p>
+        <p>
+          For instance, in the next code cell, we multiply 3 by 2. We also add a
+          comment (# Multiply 3 by 2) above the code to describe what the code
+          is doing.
+        </p>
+        <div class="coding-box-si">
+          <p><span class="comment-si"># Multiply 3 by 2</span></p>
+          <p>
+            <span class="function-si">print</span>(3
+            <span class="operator-si">*</span> 2)
+          </p>
+        </div>
+        <p class="answer-6p-si answer-p-si">6</p>
+        <p class="to-indicate-to-p-si after-answer-p-si">
+          To indicate to Python that a line is comment (and not Python code),
+          you need to write a pound sign (#) as the very first character.
+        </p>
+        <p>
+          Once Python sees the pound sign and recognizes that the line is a
+          comment, it is completely ignored by the computer. This is important,
+          because just like English or Hindi (or any other language!), Python is
+          a language with very strict rules that need to be followed. Python is
+          stricter than a human listener, though, and will just error if it
+          can't understand the code.
+        </p>
+        <p>
+          We can see an example of this, in the code cell below. Python errors
+          if we remove the pound sign, because the text in the comment is not
+          valid Python code, so it can't be interpreted properly.
+        </p>
+        <div class="coding-box-si">
+          <p>Multiply 3 by 2</p>
+        </div>
+        <div class="error-box-si">
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="downy-text-si"
+              >File &nbsp;</span
+            ><span class="green-haze-text-si"
+              >"/tmp/ipykernel_18/3750420471.py"</span
+            >
+            <span class="downy-text-si">, line 1</span>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              class="flamingo-text-si"
+              >Multiply 3 by 2</span
+            >
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^
+          </p>
+          <p>
+            <span class="flamingo-text-si">SyntaxError:</span> invalid syntax
+          </p>
+        </div>
+      </div>
+
+      <div class="variables-si">
+        <h2>Variables</h2>
+        <p>
+          So far, you have used code to make a calculation and print the result,
+          and the result isn't saved anywhere. However, you can imagine that you
+          might want to save the result to work with it later. For this, you'll
+          need to use variables.
+        </p>
+        <h2 class="creating-variables-h2-si">Creating variables</h2>
+        <p>
+          The next code cell creates a variable named test_var and assigns it
+          the value that we get when we add 5 to 4.
+        </p>
+        <p>
+          We then print the value that is assigned to the variable, which is 9.
+        </p>
+        <div class="coding-box-si">
+          <p>
+            <span class="comment-si"
+              ># Create a variable called test_var and give it a value of
+              4+5</span
+            >
+          </p>
+          <p>
+            test_var <span class="operator-si">&nbsp;=&nbsp;</span> 4
+            <span class="operator-si">+</span> 5
+          </p>
+          <br />
+          <p><span class="comment-si"># Print the value of test_var</span></p>
+          <p><span class="function-si">print</span>(test_var)</p>
+        </div>
+        <p class="answer-9-p-si answer-p-si">9</p>
+        <p class="in-general,-to-p-si after-answer-p-si">
+          In general, to work with a variable, you need to begin by selecting
+          the name you want to use. Variable names are ideally short and
+          descriptive. They also need to satisfy several requirements:
+        </p>
+        <div class="unordered-list-si">
+          <ul>
+            <li>They can't have spaces (e.g., test var is not allowed)</li>
+            <li>
+              They can only include letters, numbers, and underscores (e.g.,
+              test_var! is not allowed)
+            </li>
+            <li>
+              They have to start with a letter or underscore (e.g., 1_var is not
+              allowed)
+            </li>
+          </ul>
+        </div>
+        <p>
+          Then, to create the variable, you need to use = to assign the value
+          that you want it to have.
+        </p>
+        <p>
+          You can always take a look at the value assigned to the variable by
+          using print() and putting the name of the variable in parentheses.
+        </p>
+        <p>
+          Over time, you'll learn how to select good names for Python variables.
+          It's completely fine for it to feel uncomfortable now, and the best
+          way to learn is just by viewing a lot of Python code!
+        </p>
+        <h2 class="manipulating-variables-h2-si">Manipulating variables</h2>
+        <p>
+          You can always change the value assigned to a variable by overriding
+          the previous value.
+        </p>
+        <p>
+          In the code cell below, we change the value of my_var from 3 to 100.
+        </p>
+        <div class="coding-box-si">
+          <p>
+            <span class="comment-si"
+              ># Set the value of a new variable to 3</span
+            >
+          </p>
+          <p>my_var <span class="operator-si">&nbsp;=&nbsp;</span> 3</p>
+          <br />
+          <p>
+            <span class="comment-si"># Print the value assigned to my_var</span>
+          </p>
+          <p><span class="function-si">print</span>(my_var)</p>
+          <br />
+          <p>
+            <span class="comment-si"
+              ># Change the value of the variable to 100</span
+            >
+          </p>
+          <p>my_var <span class="operator-si">&nbsp;=&nbsp;</span> 100</p>
+          <br />
+          <p>
+            <span class="comment-si"
+              ># Print the new value assigned to my_var</span
+            >
+          </p>
+          <p><span class="function-si">print</span>(my_var)</p>
+        </div>
+        <p class="answer-3-100-p-si answer-p-si">3<br />100</p>
+        <p class="note-that-in-p-si after-answer-p-si">
+          Note that in general, whenever you define a variable in a code cell,
+          all of the code cells that follow also have access to the variable.
+          For instance, we use the next code cell to access the values of my_var
+          (from the code cell above) and test_var (from earlier in this
+          tutorial).
+        </p>
+        <div class="coding-box-si">
+          <p><span class="function-si">print</span>(my_var)</p>
+          <p><span class="function-si">print</span>(test_var)</p>
+        </div>
+        <p class="answer-100-9-p-si answer-p-si">100<br />9</p>
+        <p class="the-next-code-p-si after-answer-p-si">
+          The next code cell tells Python to increase the current value of
+          my_var by 3.
+        </p>
+        <p>
+          To do this, we still need to use my_var = like before. And also just
+          like before, the new value we want to assign to the variable is to the
+          right of the = sign.
+        </p>
+        <div class="coding-box-si">
+          <p><span class="comment-si"># Increase the value by 3</span></p>
+          <p>
+            my_var <span class="operator-si">&nbsp;=&nbsp;</span> my_var
+            &nbsp;<span class="operator-si">+</span>&nbsp 3
+          </p>
+          <br />
+          <p>
+            <span class="comment-si"># Print the value assigned to my_var</span>
+          </p>
+          <p><span class="function-si">print</span>(my_var)</p>
+        </div>
+        <p class="answer-103-p-si answer-p-si">103</p>
+        <h2 class="using-multiple-variables-h2-si">Using multiple variables</h2>
+        <p>
+          Using multiple variables It's common for code to use multiple
+          variables. This is especially useful when we have to do a long
+          calculation with multiple inputs.
+        </p>
+        <p>
+          In the next code cell, we calculate the number of seconds in four
+          years. This calculation uses five inputs.
+        </p>
+        <div class="coding-box-si">
+          <p><span class="comment-si"># Create variables</span></p>
+          <p>num_years &nbsp;<span class="operator-si">=</span>&nbsp; 4</p>
+          <p>
+            days_per_year &nbsp;<span class="operator-si">=</span>&nbsp; 365
+          </p>
+          <p>hours_per_day &nbsp;<span class="operator-si">=</span>&nbsp; 24</p>
+          <p>mins_per_hour &nbsp;<span class="operator-si">=</span>&nbsp; 60</p>
+          <p>secs_per_min &nbsp;<span class="operator-si">=</span>&nbsp; 60</p>
+          <br />
+          <p>
+            <span class="comment-si"
+              ># Calculate number of seconds in four years</span
+            >
+          </p>
+          <p>
+            total_secs &nbsp;<span class="operator-si">=</span>&nbsp;
+            secs_per_min
+            <span class="operator-si">&nbsp;*&nbsp;</span> mins_per_hour
+            <span class="operator-si">&nbsp;*&nbsp;</span> hours_per_day
+            <span class="operator-si">&nbsp;*&nbsp;</span> days_per_year
+            <span class="operator-si">&nbsp;*&nbsp;</span> num_years
+          </p>
+          <p><span class="function-si">print</span>(total_secs)</p>
+        </div>
+        <p class="answer-126144000-p-si answer-p-si">126144000</p>
+        <p class="as-calculated-above,-p-si after-answer-p-si">
+          As calculated above, there are 126144000 seconds in four years.
+        </p>
+        <p>
+          Note it is possible to do this calculation without variables as just
+          60 * 60 * 24 * 365 * 4, but it is much harder to check that the
+          calculation without variables does not have some error, because it is
+          not as readable. When we use variables (such as num_years,
+          days_per_year, etc), we can better keep track of each part of the
+          calculation and more easily check for and correct any mistakes.
+        </p>
+        <p>
+          Note that it is particularly useful to use variables when the values
+          of the inputs can change. For instance, say we want to slightly
+          improve our estimate by updating the value of the number of days in a
+          year from 365 to 365.25, to account for leap years. Then we can change
+          the value assigned to days_per_year without changing any of the other
+          variables and redo the calculation.
+        </p>
+        <div class="coding-box-si">
+          <p><span class="comment-si"># Update to include leap years</span></p>
+          <p>
+            days_per_year &nbsp;<span class="operator-si">=</span>&nbsp; 365.25
+          </p>
+          <br />
+          <p>
+            <span class="comment-si"
+              ># Calculate number of seconds in four years</span
+            >
+          </p>
+          <p>
+            total_secs &nbsp;<span class="operator-si">=</span>&nbsp;
+            secs_per_min
+            <span class="operator-si">&nbsp;*&nbsp;</span> mins_per_hour
+            <span class="operator-si">&nbsp;*&nbsp;</span> hours_per_day
+            <span class="operator-si">&nbsp;*&nbsp;</span> days_per_year
+            <span class="operator-si">&nbsp;*&nbsp;</span> num_years
+          </p>
+          <p><span class="function-si">print</span>(total_secs)</p>
+          <p><span class="function-si">print</span>(total_secs)</p>
+        </div>
+        <p class="answer-126144000-p-si answer-p-si">126230400.0</p>
+        <p class="note:-you-might-p-si after-answer-p-si">
+          <b>Note</b>: You might have noticed the .0 added at the end of the
+          number, which might look unnecessary. This is caused by the fact that
+          in the second calculation, we used a number with a fractional part
+          (365.25), whereas the first calculation multipled just numbers with no
+          fractional part. You'll learn more about this in Lesson 3, when we
+          cover data types.
+        </p>
+        <h2 class="debugging-si">Debugging</h2>
+        <p>
+          One common error when working with variables is to accidentally
+          introduce typos. For instance, if we spell hours_per_day as
+          hours_per_dy, Python will error with message NameError: name
+          'hours_per_dy' is not defined.
+        </p>
+        <div class="coding-box-si">
+          <p><span class="function-si">print</span>(hours_per_dy)</p>
+        </div>
+        <div class="error-box-si">
+          <p>
+            <span class="flamingo-text-si"
+              >---------------------------------------------------------------------------</span
+            >
+          </p>
+          <p>
+            <span class="flamingo-text-si">NameError </span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Traceback (most recent call last)
+          </p>
+          <p>
+            <span class="green-haze-text-si"
+              >/tmp/ipykernel_18/142450907.py
+            </span>
+            &nbsp;in&nbsp
+            <span class="downy-text-si">&nbsp;&lt;module&gt;&nbsp;</span>
+          </p>
+          <p>
+            <span class="green-haze-text-si">----&gt; 1</span>&nbsp;&nbsp;
+            print<span class="closest-dodger-blue-text-si">(</span
+            >hours_per_dy<span class="closest-dodger-blue-text-si">)</span>
+          </p>
+          <br />
+          <br />
+          <p>
+            <span class="flamingo-text-si">NameError</span>: &nbsp;name
+            &nbsp;'hours_per_dy' &nbsp;is &nbsp;not &nbsp;defined
+          </p>
+        </div>
+        <p class="when-you-see-p-si after-answer-p-si">
+          When you see NameError like this, it's an indication that you should
+          check how you have spelled the variable that it references as "not
+          defined". Then, to fix the error, you need only correct the spelling.
+        </p>
+        <div class="coding-box-si">
+          <p><span class="function-si">print</span>(hours_per_dy)</p>
+        </div>
+        <p class="answer-24-p-si answer-p-si">24</p>
+      </div>
+
+      <div class="whats-next">
+        <h2>What's next?</h2>
+        <p>
+          Now it's your turn to
+          <a href="">practice manipulating variables with arithmetic.</a>
+        </p>
+        <hr />
+        <p>
+          Have questions or comments? Visit the
+          <a href="">course discussion forum</a> to chat with other learners.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

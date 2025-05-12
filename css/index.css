@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --fire-brick:#BA2121;
+    --green:#008000;
+    --green-haze:#00A250;
+    --alice-blue:#f1f3f4;
+    --whisper:#eaeaea;
+    --blue:#055be0;
+    --light-gray:hsla(220,9%,87%,0.8);
+    --dark-gray:hsla(210,3%,87%,0.3);
+    --comment-gray:rgba(0,0,0,.4);
+    --misty-rose:#fddfdd;
+    --downy:#60C6C8;
+    --flamingo:#E75C58;
+    --closest-dodger-blue:#208FFB;
+    
+}
+
+
+h1{
+    font-size: 42px;
+}
+h2{
+
+    font-size: 36px;
+}
+p{
+    font-size: 19px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+
+
+
+.content-area-si{
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+}
+.content-area-si .arithmetic-and-variables-si p{
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+
+
+
+.content-area-si .intro-to-programming-si{
+
+    margin-top: 48px;
+}
+
+.content-area-si .intro-to-programming-si p{
+    margin-top: 24px;
+}
+
+
+
+
+.content-area-si .printing-si{
+
+    margin-top: 48px;
+
+}
+.content-area-si .printing-si p{
+    margin-top: 24px;
+
+}
+.content-area-si .printing-si .answer-p-si{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.content-area-si .printing-si .after-answer-p-si{
+    margin-top: 70px;
+}
+.content-area-si .printing-si .coding-box-si{
+    margin-top: 45px;
+}
+.content-area-si .printing-si .coding-box-si p{
+    margin-top: 0px;
+}
+
+
+
+
+.content-area-si .coding-box-si{
+    margin-top: 45px;
+    padding: 14px;
+    background-color: var(--alice-blue);
+    border: 1px solid var(--whisper);
+    border-radius: 8px;
+}
+.content-area-si .coding-box-si p{
+    line-height: 29px;
+}
+.content-area-si .coding-box-si .function-si{
+    color: var(--green);
+
+}
+.content-area-si .coding-box-si .string-si{
+    color: var(--fire-brick);
+}
+.content-area-si .coding-box-si .operator-si{
+    color: var(--blue);
+}
+.content-area-si .coding-box-si .comment-si{
+color: var(--comment-gray);
+}
+
+
+
+.content-area-si .arithmetic-si{
+    margin-top: 48px;
+}
+.content-area-si .arithmetic-si p{
+    margin-top: 24px;
+}
+.content-area-si .arithmetic-si .coding-box-si{
+    margin-top: 45px;
+}
+.content-area-si .arithmetic-si .coding-box-si p{
+    margin-top: 0px;
+}
+.content-area-si .arithmetic-si .answer-p-si{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.content-area-si .arithmetic-si .after-answer-p-si{
+
+    margin-top: 70px;
+
+}
+.content-area-si .arithmetic-si .table-si{
+    margin-top: 20px;
+}
+
+.content-area-si .arithmetic-si .table-si table, th, td {
+    border: 1px solid var(--light-gray);
+    border-collapse: collapse;
+  }
+.content-area-si .arithmetic-si .table-si table th{
+    padding: 5px 10px 5px 10px ;
+    background-color: var(--dark-gray);
+  }
+.content-area-si .arithmetic-si .table-si table td{
+    padding: 5px 10px 5px 10px ;
+  }
+.content-area-si .arithmetic-si .you-can-control-p-si{
+    margin-top: 70px;
+}
+
+
+
+
+
+.content-area-si .comments-si{
+    margin-top: 48px;
+}
+.content-area-si .comments-si .coding-box-si p{
+    margin-top: 0px;
+}
+.content-area-si .comments-si .answer-p-si{
+    margin-left: 20px;
+}
+.content-area-si .comments-si .after-answer-p-si{
+    margin-top: 70px;
+}
+
+
+
+.content-area-si .error-box-si{
+    background-color: var(--misty-rose);
+    padding: 23px 17px;
+    margin-top: 5px;
+}
+.content-area-si .error-box-si p{
+    line-height: 27px;
+    margin-top: 0px;
+}
+.content-area-si .error-box-si .downy-text-si{
+    color: var(--downy);
+}
+.content-area-si .error-box-si .green-haze-text-si{
+    color: var(--green-haze);
+}
+.content-area-si .error-box-si .flamingo-text-si{
+    color: var(--flamingo);
+}
+.content-area-si .error-box-si .closest-dodger-blue-text-si{
+    color: var(--closest-dodger-blue);
+}
+
+
+
+.content-area-si .variables-si{
+    margin-top: 48px;
+}
+.content-area-si .variables-si .creating-variables-h2-si{
+    font-size: 28px;
+    margin-top: 48px;
+}
+.content-area-si .variables-si .coding-box-si p{
+    margin-top: 0px;
+}
+.content-area-si .variables-si .answer-p-si{
+    margin-left: 20px;
+}
+.content-area-si .variables-si .after-answer-p-si{
+    margin-top: 70px;
+}
+
+.content-area-si .variables-si .unordered-list-si{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.content-area-si .variables-si .unordered-list-si ul li{
+    line-height: 27px;
+    font-size: 19px;
+}
+.content-area-si .variables-si .manipulating-variables-h2-si{
+    margin-top: 69px;
+    font-size: 28px;
+}
+.content-area-si .variables-si .using-multiple-variables-h2-si{
+
+    margin-top: 69px;
+    font-size: 28px;
+}
+.content-area-si .variables-si .debugging-si{
+    margin-top: 69px;
+    font-size: 28px;
+}
+.content-area-si .variables-si .when-you-see-p-si{
+    margin-top: 55px;
+}
+
+
+
+
+.content-area-si .whats-next{
+    margin-top: 48px;
+}
+.content-area-si .whats-next h2{
+    font-size: 30px;
+}
+.content-area-si .whats-next hr{
+    margin-top: 100px;
+    background-color: #dadce0;
+    height: 1px;
+    border: 0px;
+}
+
+
+
+
